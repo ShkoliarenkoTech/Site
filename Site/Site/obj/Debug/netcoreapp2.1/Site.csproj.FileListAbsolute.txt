@@ -2,10 +2,12 @@ D:\GitHub\Projects\Site\Site\Site\bin\Debug\netcoreapp2.1\Site.deps.json
 D:\GitHub\Projects\Site\Site\Site\bin\Debug\netcoreapp2.1\Site.runtimeconfig.json
 D:\GitHub\Projects\Site\Site\Site\bin\Debug\netcoreapp2.1\Site.runtimeconfig.dev.json
 D:\GitHub\Projects\Site\Site\Site\bin\Debug\netcoreapp2.1\Site.dll
-D:\GitHub\Projects\Site\Site\Site\obj\Debug\netcoreapp2.1\Site.csprojAssemblyReference.cache
 D:\GitHub\Projects\Site\Site\Site\obj\Debug\netcoreapp2.1\Site.csproj.CoreCompileInputs.cache
 D:\GitHub\Projects\Site\Site\Site\obj\Debug\netcoreapp2.1\Site.RazorAssemblyInfo.cache
 D:\GitHub\Projects\Site\Site\Site\obj\Debug\netcoreapp2.1\Site.RazorAssemblyInfo.cs
 D:\GitHub\Projects\Site\Site\Site\obj\Debug\netcoreapp2.1\Site.AssemblyInfoInputs.cache
 D:\GitHub\Projects\Site\Site\Site\obj\Debug\netcoreapp2.1\Site.AssemblyInfo.cs
 D:\GitHub\Projects\Site\Site\Site\obj\Debug\netcoreapp2.1\Site.RazorTargetAssemblyInfo.cache
+D:\GitHub\Projects\Site\Site\Site\bin\Debug\netcoreapp2.1\Site.pdb
+D:\GitHub\Projects\Site\Site\Site\obj\Debug\netcoreapp2.1\Site.dll
+D:\GitHub\Projects\Site\Site\Site\obj\Debug\netcoreapp2.1\Site.pdb
