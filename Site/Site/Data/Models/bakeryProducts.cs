@@ -13,7 +13,7 @@ namespace Site.Data.Models
         public string  LongDescription { get; set; }
         public string Image { get; set; }
         public uint Price { get; set; }
-        public int Avaliable { get; set; }
+        public bool Avaliable { get; set; }
         public bool IsFavourite { get; set; }
         public int CategoryID { get; set; }
         public Categories Categories { get; set; }
