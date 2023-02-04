@@ -10,7 +10,7 @@ namespace Site.Data.Models
         public int id { get; set; }
         public string categoryName { get; set; }
         public string description { get; set; }
-        // public int MyProperty { get; set; }
+        public List<bakeryProducts> bakeryProducts { get; set; }
 
 
     }
