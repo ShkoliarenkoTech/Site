@@ -11,3 +11,4 @@ D:\GitHub\Projects\Site\Site\Site\obj\Debug\netcoreapp2.1\Site.RazorTargetAssemb
 D:\GitHub\Projects\Site\Site\Site\bin\Debug\netcoreapp2.1\Site.pdb
 D:\GitHub\Projects\Site\Site\Site\obj\Debug\netcoreapp2.1\Site.dll
 D:\GitHub\Projects\Site\Site\Site\obj\Debug\netcoreapp2.1\Site.pdb
+D:\GitHub\Projects\Site\Site\Site\obj\Debug\netcoreapp2.1\Site.csprojAssemblyReference.cache

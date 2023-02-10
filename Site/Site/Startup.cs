@@ -6,6 +6,9 @@ using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Http;
 using Microsoft.Extensions.DependencyInjection;
+using Site.Interfaces;
+using Site.Data.Mocks;
+
 
 namespace Site
 {
@@ -15,6 +18,8 @@ namespace Site
         // For more information on how to configure your application, visit https://go.microsoft.com/fwlink/?LinkID=398940
         public void ConfigureServices(IServiceCollection services)
         {
+            services.AddTransient<IAllBakery,MockBakery>(); // connect any interface to one class which realize it.
+            services.AddTransient<IBakeryProductsCategory,MockCategories>();
             services.AddMvc();
         }
 
