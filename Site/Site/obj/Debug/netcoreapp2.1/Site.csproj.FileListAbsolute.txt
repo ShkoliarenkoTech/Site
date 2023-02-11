@@ -11,4 +11,12 @@ D:\GitHub\Projects\Site\Site\Site\obj\Debug\netcoreapp2.1\Site.RazorTargetAssemb
 D:\GitHub\Projects\Site\Site\Site\bin\Debug\netcoreapp2.1\Site.pdb
 D:\GitHub\Projects\Site\Site\Site\obj\Debug\netcoreapp2.1\Site.dll
 D:\GitHub\Projects\Site\Site\Site\obj\Debug\netcoreapp2.1\Site.pdb
-D:\GitHub\Projects\Site\Site\Site\obj\Debug\netcoreapp2.1\Site.csprojAssemblyReference.cache
+D:\GitHub\Projects\Site\Site\Site\bin\Debug\netcoreapp2.1\Site.Views.dll
+D:\GitHub\Projects\Site\Site\Site\bin\Debug\netcoreapp2.1\Site.Views.pdb
+D:\GitHub\Projects\Site\Site\Site\obj\Debug\netcoreapp2.1\Site.TagHelpers.input.cache
+D:\GitHub\Projects\Site\Site\Site\obj\Debug\netcoreapp2.1\Site.TagHelpers.output.cache
+D:\GitHub\Projects\Site\Site\Site\obj\Debug\netcoreapp2.1\Site.RazorCoreGenerate.cache
+D:\GitHub\Projects\Site\Site\Site\obj\Debug\netcoreapp2.1\Razor\Views\Bakery\ViewResult.g.cshtml.cs
+D:\GitHub\Projects\Site\Site\Site\obj\Debug\netcoreapp2.1\Site.RazorTargetAssemblyInfo.cs
+D:\GitHub\Projects\Site\Site\Site\obj\Debug\netcoreapp2.1\Site.Views.pdb
+D:\GitHub\Projects\Site\Site\Site\obj\Debug\netcoreapp2.1\Site.csproj.CopyComplete

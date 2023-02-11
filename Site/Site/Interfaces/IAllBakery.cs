@@ -6,7 +6,7 @@ using Site.Data.Models;
 
 namespace Site.Interfaces
 {
-    interface IAllBakery
+    public interface IAllBakery
     {
         IEnumerable<bakeryProducts> bakeryProducts { get;}
         IEnumerable<bakeryProducts> getFavouriteProducts { get; set; }

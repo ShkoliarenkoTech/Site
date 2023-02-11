@@ -1,0 +1,28 @@
+﻿@using Site.Data.Models 
+@model IEnumerable<bakeryProducts> 
+
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>ViewResult</title>
+</head>
+<body>
+    <h2>All bakery products</h2>
+    @{
+        foreach (var bakery in Model)
+        {
+            <div>
+                <h2>Product name: @bakery.Name</h2>
+                <p>Price: @bakery.Price.ToString("c")</p>>
+            </div>
+        }
+     }
+
+</body>
+</html>

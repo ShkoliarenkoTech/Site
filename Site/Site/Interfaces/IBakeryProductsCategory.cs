@@ -8,7 +8,7 @@ using Site.Data.Models;
 
 namespace Site.Interfaces
 {
-    interface IBakeryProductsCategory
+    public interface IBakeryProductsCategory
     {
         IEnumerable<Categories> allCategories { get; }
     }
