@@ -1,28 +1,16 @@
-﻿@using Site.Data.Models 
-@model IEnumerable<bakeryProducts> 
-
-@{
-    Layout = null;
-}
-
-<!DOCTYPE html>
-
-<html>
-<head>
-    <meta name="viewport" content="width=device-width" />
-    <title>ViewResult</title>
-</head>
-<body>
-    <h2>All bakery products</h2>
+﻿
+    <h1>All bakery products</h1>
+    <h3>@Model.BakeryCategory</h3>
     @{
-        foreach (var bakery in Model)
+        foreach (var bakery in Model.AllBakery)
         {
             <div>
                 <h2>Product name: @bakery.Name</h2>
-                <p>Price: @bakery.Price.ToString("c")</p>>
+                <p>Price: @bakery.Price.ToString("c")</p>
             </div>
+            }
         }
-     }
 
-</body>
-</html>
+
+
+

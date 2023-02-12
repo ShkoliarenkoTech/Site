@@ -26,6 +26,7 @@ namespace Site
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
         public void Configure(IApplicationBuilder app, IHostingEnvironment env)
         {
+         
             app.UseDeveloperExceptionPage(); // page with any exceptions;
             app.UseStatusCodePages(); // code of the pages 404, 500 , ~200~ - succeeded;
             app.UseStaticFiles(); // show css files, pictures ...;

@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using Site.Interfaces;
+using Site.ViewModels;
 
 namespace Site.Controllers
 {
@@ -21,9 +22,10 @@ namespace Site.Controllers
 
         public ViewResult ViewResult()
         {
-
-            var bakery = _allBakery.bakeryProducts; 
-            return View(bakery);
+           ViewBag.Title = "Bakery products";
+            BakeryViewResultViewModel obj = new BakeryViewResultViewModel();
+            obj.AllBakery = _allBakery.bakeryProducts;
+            return View(obj);
         }
 
     }
