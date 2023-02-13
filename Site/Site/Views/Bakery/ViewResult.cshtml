@@ -1,14 +1,20 @@
 ﻿
-    <h1>All bakery products</h1>
-    <h3>@Model.BakeryCategory</h3>
+<h1>All bakery products</h1>
+<h3>@Model.BakeryCategory</h3>
     @{
+
+
         foreach (var bakery in Model.AllBakery)
         {
-            <div>
-                <h2>Product name: @bakery.Name</h2>
-                <p>Price: @bakery.Price.ToString("c")</p>
-            </div>
-            }
+//<div class="col-lg-4">
+    //<img class= "img-thumbnail" src="@" alt="Alternate Text" />
+    <h2>Product name: @bakery.Name</h2>
+    <p></p>
+    <p>Price: @bakery.Price.ToString("c")</p>
+    //</div>
+
+        }
+
         }
 
 

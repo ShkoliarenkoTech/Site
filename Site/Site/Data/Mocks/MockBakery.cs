@@ -11,7 +11,7 @@ namespace Site.Data.Mocks
     {
         private readonly IBakeryProductsCategory _IBakeryProductsCategory = new MockCategories();
 
-        public IEnumerable<bakeryProducts> bakeryProducts
+        public IEnumerable<bakeryProducts> _bakeryProducts
         {
             get
             {
@@ -21,7 +21,7 @@ namespace Site.Data.Mocks
                         Name = "Whole wheat bread",
                         ShortDescription = "Wheat bread",
                         LongDescription = "Whole wheat bread first class hard flour bread" ,
-                        Image = "https://thewoksoflife.com/wp-content/uploads/2016/12/whole-wheat-bread-5.jpg",
+                        Image = "/img/Whole wheat bread.jpg",
                         Price = 40,
                         IsFavourite = true,
                         Avaliable = true,
@@ -31,7 +31,7 @@ namespace Site.Data.Mocks
                         Name = "Sponge cake",
                         ShortDescription = "Cake",
                         LongDescription = "gluten free cake with hazelnuts and strawberry " ,
-                        Image = "https://images.immediate.co.uk/production/volatile/sites/30/2020/08/recipe-image-legacy-id-1001468_10-81b47f5.jpg",
+                        Image = "/img/Sponge cake.jpg",
                         Price = 80,
                         IsFavourite = true,
                         Avaliable = true,
@@ -39,9 +39,9 @@ namespace Site.Data.Mocks
                      },
                       new bakeryProducts{
                         Name = "Hotcake",
-                        ShortDescription = "Pancake",
-                        LongDescription = "Gluten free pancake has been baked with little chopped strawberry inside that feels at your tongue" ,
-                        Image = "https://img.taste.com.au/HG7nEkge/taste/2016/11/american-hotcakes-98829-1.jpeg",
+                        ShortDescription = "Hotcake",
+                        LongDescription = "Gluten free hotcake has been baked with little chopped strawberry inside that feels at your tongue" ,
+                        Image = "/img/Hotcake.jpg",
                         Price = 20,
                         IsFavourite = true,
                         Avaliable = true,
@@ -51,7 +51,7 @@ namespace Site.Data.Mocks
                         Name = "Baguette",
                         ShortDescription = "Bread",
                         LongDescription = "Fragrant baguette directly from Paris bakery",
-                        Image = "https://cuk-it.com/wp-content/uploads/2020/07/thumb03-low-1-1024x576.jpg",
+                        Image = "/img/Baguette.jpg",
                         Price = 30,
                         IsFavourite = true,
                         Avaliable = true,

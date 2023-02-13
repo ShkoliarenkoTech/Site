@@ -24,7 +24,7 @@ namespace Site.Controllers
         {
            ViewBag.Title = "Bakery products";
             BakeryViewResultViewModel obj = new BakeryViewResultViewModel();
-            obj.AllBakery = _allBakery.bakeryProducts;
+            obj.AllBakery = _allBakery._bakeryProducts;
             return View(obj);
         }
 
