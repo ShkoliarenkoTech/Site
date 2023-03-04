@@ -5,7 +5,6 @@ using System.Threading.Tasks;
 using Site.Data.Models;
 
 
-
 namespace Site.Interfaces
 {
     public interface IBakeryProductsCategory

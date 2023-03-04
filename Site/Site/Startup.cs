@@ -8,18 +8,31 @@ using Microsoft.AspNetCore.Http;
 using Microsoft.Extensions.DependencyInjection;
 using Site.Interfaces;
 using Site.Data.Mocks;
-
+using Microsoft.Extensions.Configuration;
+using Site.Data;
+using Microsoft.EntityFrameworkCore;
+using Site.Data.Repository;
 
 namespace Site
 {
     public class Startup
     {
+
+        private IConfigurationRoot _confString;
+        public Startup(IHostingEnvironment hostEnv)
+        {
+            _confString = new ConfigurationBuilder().SetBasePath(hostEnv.ContentRootPath).AddJsonFile("DbSettings.json").Build();
+        }
+
+
+
         // This method gets called by the runtime. Use this method to add services to the container.
         // For more information on how to configure your application, visit https://go.microsoft.com/fwlink/?LinkID=398940
         public void ConfigureServices(IServiceCollection services)
         {
-            services.AddTransient<IAllBakery,MockBakery>(); // connect any interface to one class which realize it.
-            services.AddTransient<IBakeryProductsCategory,MockCategories>();
+            services.AddDbContext<AppDBContent>(options => options.UseSqlServer(_confString.GetConnectionString("DefaultConnection")));
+            services.AddTransient<IAllBakery, BakeryRepository>(); // connect any interface to one class which realize it.
+            services.AddTransient<IBakeryProductsCategory, CategoriesRepository>();
             services.AddMvc();
         }
 

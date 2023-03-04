@@ -9,7 +9,7 @@ namespace Site.Interfaces
     public interface IAllBakery
     {
         IEnumerable<bakeryProducts> _bakeryProducts { get;}
-        IEnumerable<bakeryProducts> getFavouriteProducts { get; set; }
+        IEnumerable<bakeryProducts> getFavouriteProducts { get;  }
         bakeryProducts getObjectBakery(int backeryID);
     }
 }
