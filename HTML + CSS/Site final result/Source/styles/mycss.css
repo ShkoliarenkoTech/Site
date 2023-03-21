@@ -1,0 +1,29 @@
+/* main-container its for making background
+color without using 
+teg body due to it's cased some problems in
+site appearence */
+.main-container 
+{
+    background: linear-gradient(360deg, #00FEFF 0%, #FFFFFF 100%); 
+}
+
+
+.nav-link
+{
+    color: aquamarine;
+}
+
+.navbar-nav .nav-link.active
+{
+    color: rgb(75, 192, 196);
+}
+
+.navbar-brand img
+{
+ width: 75px;   
+}
+
+.navbar-toggler
+{
+    background-color: rgba(255, 8, 8, 0.067);
+}
