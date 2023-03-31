@@ -44,6 +44,7 @@ namespace Site
             app.UseStatusCodePages(); // code of the pages 404, 500 , ~200~ - succeeded;
             app.UseStaticFiles(); // show css files, pictures ...;
             app.UseMvcWithDefaultRoute(); // follow URL-adress (if controller & view  == doesn't exsist --> URL-by-default.)
+            DbObjects.Initial(app);
         }
     }
 }
